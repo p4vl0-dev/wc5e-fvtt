@@ -1,0 +1,240 @@
+{
+  "id": "world-of-warcraft-5e-conversation",
+  "title": "⚔️ World of Warcraft - 5e conversation ⚔️",
+  "version": "1.0.2",
+  "esmodules": [
+    "scripts/init.js"
+  ],
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "authors": [
+    {
+      "name": "p4vl0",
+      "email": "p4vl0.dev@gmail.com",
+      "discord": "p4vl0o",
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "⚔️World of Warcraft⚔️",
+      "sorting": "m",
+      "color": "#b52121",
+      "folders": [
+        {
+          "name": "Игроку",
+          "sorting": "m",
+          "color": "#102d17",
+          "folders": [
+            {
+              "name": "Классы",
+              "sorting": "m",
+              "color": "#194821",
+              "packs": [
+                "klassy",
+                "osobennosti",
+                "podklassy"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Расы",
+              "sorting": "m",
+              "color": "#216329",
+              "packs": [
+                "rasy"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Предыстории",
+              "sorting": "m",
+              "color": "#2a7e30",
+              "packs": [
+                "predystorii"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Заклинания",
+              "sorting": "m",
+              "color": "#329a39",
+              "packs": [
+                "zaklinaniya"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        },
+        {
+          "name": "Мастеру",
+          "sorting": "m",
+          "color": "#17403f",
+          "folders": [
+            {
+              "name": "Дополнительно",
+              "sorting": "m",
+              "color": "#286976",
+              "packs": [
+                "dopolnitelno"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Предметы и Товары",
+              "sorting": "m",
+              "color": "#30918b",
+              "packs": [
+                "predmety"
+              ],
+              "folders": []
+            },
+            {
+              "name": "Бестиарий",
+              "sorting": "m",
+              "color": "#0a5466",
+              "packs": [
+                "bestiarij"
+              ],
+              "folders": []
+            }
+          ],
+          "packs": []
+        }
+      ],
+      "packs": []
+    }
+  ],
+  "packs": [
+    {
+      "name": "rasy",
+      "label": "Расы",
+      "path": "packs/rasy",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "klassy",
+      "label": "Классы",
+      "path": "packs/klassy",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "predystorii",
+      "label": "Предыстории",
+      "path": "packs/predystorii",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "predmety",
+      "label": "Предметы",
+      "path": "packs/predmety",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "zaklinaniya",
+      "label": "Заклинания",
+      "path": "packs/zaklinaniya",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "dopolnitelno",
+      "label": "Дополнительно",
+      "path": "packs/dopolnitelno",
+      "type": "JournalEntry",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "osobennosti",
+      "label": "Особенности",
+      "path": "packs/osobennosti",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "podklassy",
+      "label": "Подклассы",
+      "path": "packs/podklassy",
+      "type": "Item",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "bestiarij",
+      "label": "Бестиарий",
+      "path": "packs/bestiarij",
+      "type": "Actor",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "recommends": [
+      {
+        "id": "chris-premades",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "automated-conditions-5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "manifest": "https://raw.githubusercontent.com/p4vl0-dev/wc5e-fvtt/refs/heads/main/module.json",
+  "download": "https://github.com/p4vl0-dev/wc5e-fvtt/releases/download/ver1/world-of-warcraft-5e-conversation.zip"
+}
