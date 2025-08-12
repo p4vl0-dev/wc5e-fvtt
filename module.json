@@ -1,7 +1,7 @@
 {
   "id": "world-of-warcraft-5e-conversation",
   "title": "⚔️ World of Warcraft - 5e conversation ⚔️",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "esmodules": [
     "scripts/init.js"
   ],
@@ -236,5 +236,5 @@
     ]
   },
   "manifest": "https://raw.githubusercontent.com/p4vl0-dev/wc5e-fvtt/refs/heads/main/module.json",
-  "download": "https://github.com/p4vl0-dev/wc5e-fvtt/releases/download/ver1/world-of-warcraft-5e-conversation.zip"
+  "download": "https://github.com/p4vl0-dev/wc5e-fvtt/releases/download/ver2/world-of-warcraft-5e-conversation.zip"
 }
